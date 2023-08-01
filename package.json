@@ -1,21 +1,21 @@
 {
-  "name": "tooling-exercise",
+  "name": "ifcjs-tooling-exercise",
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "watch": "rollup -c -w"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "ifcjs": "^1.1.7",
-    "three": "^0.155.0"
-  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.1.0",
     "rollup": "^3.27.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.206"
   }
 }
